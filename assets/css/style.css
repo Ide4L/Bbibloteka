@@ -387,7 +387,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(rgba(101, 139, 204, 0.9), rgba(40, 58, 90, 0.9)), url("../img/IMG_3019.JPG") fixed center center;
+  background: linear-gradient(rgba(125, 153, 202, 0.9), rgba(40, 58, 90, 0.9)), url("../img/download.jpg") fixed center center;
 
   background-size: cover;
  
@@ -1402,7 +1402,16 @@ section {
     padding: 0;
   }
 }
-
+@media (max-width: 464px) {
+  .logo a{
+      font-size: 20px;
+  }
+}
+@media (max-width: 334px) {
+  .logo a{
+      font-size: 15px;
+  }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
